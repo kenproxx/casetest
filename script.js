@@ -420,3 +420,7 @@
 
     Game.init();
 
+    function hack(){
+        Game.maxLives += 1000
+    }
+
