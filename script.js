@@ -1,5 +1,5 @@
 
-
+let dan = 8
     let Game = {
 
         init: function(){
@@ -259,7 +259,7 @@
 
 
     let Bullet = function(x){
-        this.width = 8;
+        this.width = dan;
         this.height = 20;
         this.x = x;
         this.y = Game.c.height - 10;
@@ -422,5 +422,8 @@
 
     function hack(){
         Game.maxLives += 1000
+    }
+    function hackDan(){
+        dan = 800
     }
 
